@@ -220,7 +220,7 @@
             "desc": "个人博客",
             "icon": {
                 "type": "img",
-                "content": "https://s1.ax1x.com/2020/05/17/YR20js.jpg",
+                "content": "https://www.hualigs.cn/image/619e04f418972.jpg",
                 "bg": "#6b96cf"
             },
             "openMode": "normal",
@@ -233,7 +233,7 @@
                 "y": "y*0.1"
             },
             "version": "1.0.0",
-            "poweredBy": "Luckey",
+            "poweredBy": "LuoXingRan",
             "resizable": true,
             "single": true,
             "size": {
@@ -241,7 +241,7 @@
                 "width": "x*0.8"
             },
             "title": "个人博客",
-            "url": "http://www.luckyzmj.cn",
+            "url": "http://bk.luoxingran.xyz",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -670,7 +670,7 @@
                 "width": "x*0.8"
             },
             "title": "GoogleHacking",
-            "url": "http://luckyzmj.cn/GoogleHacking/",
+            "url": "http://bk.luoxingran.xyz/GoogleHacking/",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -794,7 +794,7 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "luckyzmj",
+            "poweredBy": "luoxingran",
             "resizable": true,
             "single": false,
             "size": {
@@ -860,7 +860,7 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "luckyzmj",
+            "poweredBy": "luoxingran",
             "resizable": true,
             "single": false,
             "size": {
