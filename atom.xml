@@ -6,7 +6,7 @@
   <link href="http://bk.luoxingran.xyz/atom.xml" rel="self"/>
   
   <link href="http://bk.luoxingran.xyz/"/>
-  <updated>2021-11-24T09:04:23.066Z</updated>
+  <updated>2021-11-24T15:52:38.438Z</updated>
   <id>http://bk.luoxingran.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网抑云音乐优化系列教程（一）</title>
+    <link href="http://bk.luoxingran.xyz/posts/7bb4f6e3.html"/>
+    <id>http://bk.luoxingran.xyz/posts/7bb4f6e3.html</id>
+    <published>2021-11-24T14:43:43.000Z</published>
+    <updated>2021-11-24T15:52:38.438Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本系列大概会出3-4期教程，本教程仅用于学习交流，请勿用于非法用途，本作者不提供成品，不承担相应的法律责任，如果同意请继续观看本教程。</p><h3 id="0x001-MT和NP管理器介绍"><a href="#0x001-MT和NP管理器介绍" class="headerlink" title="0x001 MT和NP管理器介绍"></a>0x001 MT和NP管理器介绍</h3><p>MT管理器是一款问世十年的管理器而NP是近几年才横空出世，无疑的是MT管理器拥有更长的历史优化相对来说较好，但是MT一些功能是收费的，对于一些基本的功能用MT是足够的。NP相对优化不是那么完善，功能不是很稳定，但是完全免费且具有一些MT所不具备的功能，建议两者相互结合使用。</p><p>两款管理器均可在百度进行下载，此处不提供下载链接。</p><h3 id="0x002-优化教程（一）"><a href="#0x002-优化教程（一）" class="headerlink" title="0x002 优化教程（一）"></a>0x002 优化教程（一）</h3><h4 id="1-去除升级检测（注：本教程使用网易云版本为7-2-10）"><a href="#1-去除升级检测（注：本教程使用网易云版本为7-2-10）" class="headerlink" title="1. 去除升级检测（注：本教程使用网易云版本为7.2.10）"></a>1. 去除升级检测（注：本教程使用网易云版本为7.2.10）</h4><ul><li>首先管理器和安装包是必备的，没有的可以去豌豆荚下载旧版本，这里我提供一个7.0以下，较全的网易云历史版本的网盘。</li><li><a href="https://www.lanzoui.com/b00naic2b">网易云历史版本蓝奏云集合</a></li></ul><p>教程开始</p><ul><li>首先去除安装包的签名效验，工具在文末我会进行打包。</li></ul><p><img src="https://s3.bmp.ovh/imgs/2021/11/fdf1f23f1aaac917.jpg"></p><ul><li><p>MT选择过签后的包点击查看,然后点击DEX全选选择DEX++，字符串搜索</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">android/upgrade/get<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>然后全部替换为其他字符串即可。</p></li><li><p>然后搜索字符串versioncode,把完全匹配打开减少搜索个数。将appupdate中的versioncode替换掉。这样升级检测就已经去除。<br><img src="https://s3.bmp.ovh/imgs/2021/11/564effbbfaa418c7.jpg"><br><img src="https://s3.bmp.ovh/imgs/2021/11/3624c32e834baa5c.jpg"></p></li></ul><h4 id="2-去除听歌识曲检测"><a href="#2-去除听歌识曲检测" class="headerlink" title="2.去除听歌识曲检测"></a>2.去除听歌识曲检测</h4><ul><li>查看软件版本号我用的7.2.10就搜索字符串7.2.10，然后找到类名为modula的类将版本号清空即可。<br><img src="https://s3.bmp.ovh/imgs/2021/11/69ecde8967619363.jpg"><br><img src="https://s3.bmp.ovh/imgs/2021/11/7066aa2bbebdae8a.jpg"></li></ul><h3 id="0X003-最后步骤"><a href="#0X003-最后步骤" class="headerlink" title="0X003 最后步骤"></a>0X003 最后步骤</h3><ul><li>保存签名即可，本期教程结束。</li><li><a href="https://qimoxue.lanzoui.com/iDt9Twvb04d">过签工具</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="逆向" scheme="http://bk.luoxingran.xyz/tags/%E9%80%86%E5%90%91/"/>
+    
+  </entry>
   
   <entry>
     <title>PicGo+GitHub 图床搭建</title>
