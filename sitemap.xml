@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bk.luoxingran.xyz/posts/7bb4f6e9.html</loc>
+    
+    <lastmod>2021-11-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bk.luoxingran.xyz/posts/faff21c0.html</loc>
+    
+    <lastmod>2021-11-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bk.luoxingran.xyz/posts/7bb4f6e4.html</loc>
     
     <lastmod>2021-11-25</lastmod>
@@ -44,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/contact/index.html</loc>
+    <loc>http://bk.luoxingran.xyz/census/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/census/index.html</loc>
+    <loc>http://bk.luoxingran.xyz/contact/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -156,13 +170,6 @@
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/List/galleries/%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%89/index.html</loc>
-    
-    <lastmod>2021-11-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://bk.luoxingran.xyz/List/galleries/%E5%91%86%E8%90%8C%E7%8C%AB%E5%92%AA/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
@@ -170,7 +177,7 @@
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>http://bk.luoxingran.xyz/List/galleries/%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%89/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -184,6 +191,13 @@
   </url>
   
   <url>
+    <loc>http://bk.luoxingran.xyz/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
+    
+    <lastmod>2021-11-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bk.luoxingran.xyz/List/galleries/%E5%8A%A8%E6%BC%AB%E4%BA%BA%E7%89%A9/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
@@ -191,14 +205,14 @@
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/List/galleries/%E4%BA%8C%E6%AC%A1%E5%85%83%E9%A3%8E/index.html</loc>
+    <loc>http://bk.luoxingran.xyz/List/galleries/%E4%B9%96%E5%B7%A7%E5%B0%8F%E7%8B%97/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bk.luoxingran.xyz/List/galleries/%E4%B9%96%E5%B7%A7%E5%B0%8F%E7%8B%97/index.html</loc>
+    <loc>http://bk.luoxingran.xyz/List/galleries/%E4%BA%8C%E6%AC%A1%E5%85%83%E9%A3%8E/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -228,13 +242,6 @@
 
   
   <url>
-    <loc>http://bk.luoxingran.xyz/tags/%E9%80%86%E5%90%91/</loc>
-    <lastmod>2021-11-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://bk.luoxingran.xyz/tags/PicGo/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
@@ -243,6 +250,20 @@
   
   <url>
     <loc>http://bk.luoxingran.xyz/tags/GitHub%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2021-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bk.luoxingran.xyz/tags/%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2021-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bk.luoxingran.xyz/tags/%E9%80%86%E5%90%91/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
