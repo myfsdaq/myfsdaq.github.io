@@ -644,7 +644,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    171
+                    284
                 </div>
                 
 
@@ -678,9 +678,17 @@
 <li>banner横幅就去除完成了。<h4 id="2-去除启动广告"><a href="#2-去除启动广告" class="headerlink" title="2.去除启动广告"></a>2.去除启动广告</h4></li>
 <li>首先打开AXML 搜索loadingadactivity<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/6.jpg"></li>
 <li>将此段全部删除。<br>打开DEX++搜索代码<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">loadingadactivity<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
-<li>找到类名为moudle.ad的类进入将图下此段全部删除即可。<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/7.jpg"></li>
-<li>然后退出DEX搜索字符串ad/config/get全部替换为其他字符即可。<br>还没有写完等待更新</li>
+<li>找到类名为moudle.ad的类进入将图下此段全部删除。<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/7.jpg"></li>
+<li>删除后在返回继续找moudle类 进入后将图下代码删除</li>
+<li>然后返回再找utils 一样的删除即可<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/8.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/9.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/10.jpg"><h4 id="3-去除其他广告"><a href="#3-去除其他广告" class="headerlink" title="3.去除其他广告"></a>3.去除其他广告</h4></li>
+<li>字符串搜索以下代码，选择全部替换随便打就行<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">ad/config/get<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>然后字符串搜索<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">AdApiUtils<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>选择第一个进入搜索<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">ad/get<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>将字符串删除 然后将此类所有的code字符串全部删除，例如<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v14, "code"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>修改为<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v14, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>至此广告去除的已经差不多了，其余的请自立更生。</li>
 </ul>
+<p>本次教程到此结束</p>
 
                 
             </div>
@@ -1414,7 +1422,7 @@ new Valine({
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.7k</span>&nbsp;字
+                class="white-color">1.8k</span>&nbsp;字
             
             
             
