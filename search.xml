@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>网抑云音乐优化系列教程（四）终章</title>
+      <link href="posts/7bb4fce9.html"/>
+      <url>posts/7bb4fce9.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这是网易云系列最后一期教程，此后就不会再更新了，我会尽快将打包的教程搞出来，以后大家就需要自己动手了。</p><h4 id="终极篇-1-侧边栏精简（只说明方法其余的请自行研究）"><a href="#终极篇-1-侧边栏精简（只说明方法其余的请自行研究）" class="headerlink" title="终极篇 1.侧边栏精简（只说明方法其余的请自行研究）"></a>终极篇 1.侧边栏精简（只说明方法其余的请自行研究）</h4><ul><li>首先需要准备APP 开发助手或者开发者助手</li><li>打开开发助手，选择布局查看打开，这时候会出现一个窗口。</li><li>打开网易云音乐，打开侧边栏，然后点击分析布局，然后选择音乐闹钟，这里我建议选择这个，然后长按16进制复制。</li><li>然后打开MT，选择XML搜索资源ID复制粘贴即可，搜索后可能有两个文件，一般只有一个，两个的话选择比较大的那个进行反编译。</li><li>然后搜索16进制ID，注意：可能MT会默认开启ID转名称需要进行关闭。</li><li>然后将下面代码复制粘贴即可。</li></ul><pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">android:visibility="gone"android:layout_width="match_parent"android:layout_height="0dp"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/21.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/22.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/23.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/24.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/25.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/26.jpg"></p><h4 id="终极篇-2-导航栏精简"><a href="#终极篇-2-导航栏精简" class="headerlink" title="终极篇 2.导航栏精简"></a>终极篇 2.导航栏精简</h4><ul><li>打开arsc文件搜索字符串我的。如果是英文的话需要搜索mine。</li><li>搜索后会发现2个结果是一样的 两个均需要修改。</li><li>进去后不想要哪一项直接删除即可。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/27.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/28.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/29.jpg"></p><h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><ul><li>教程到这里就结束了，其他的部分优化我不会分享出来，自己找吧，可能也没有其他人系统的整理过，网易云的优化教程，且用且珍惜吧，完结撒花。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 逆向 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网抑云音乐代理服务器分享和使用</title>
       <link href="posts/faff21c0.html"/>
       <url>posts/faff21c0.html</url>
