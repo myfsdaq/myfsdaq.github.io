@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="网抑云音乐代理服务器分享和使用, 网抑云 luoxingran.xyz">
+    <meta name="keywords" content="lspatch/xpatch软件打包教程, 网抑云 luoxingran.xyz">
     <meta name="description" content="安卓逆向技术分享">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>网抑云音乐代理服务器分享和使用 | LuoXingRan</title>
+    <title>lspatch/xpatch软件打包教程 | LuoXingRan</title>
 
     <link rel="icon" type="image/jpeg" href="https://www.hualigs.cn/image/619e04f418972.jpg">
 
@@ -488,12 +488,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928012539.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020832.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">网抑云音乐代理服务器分享和使用</h1>
+                    <h1 class="description center-align post-title">lspatch/xpatch软件打包教程</h1>
                 </div>
             </div>
         </div>
@@ -614,8 +614,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%88%86%E4%BA%AB/">
-                                <span class="chip bg-color">分享</span>
+                            <a href="/tags/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/">
+                                <span class="chip bg-color">教程分享</span>
                             </a>
                         
                     </div>
@@ -630,7 +630,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-11-25
+                    2021-11-26
                 </div>
                 
 
@@ -644,7 +644,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    435
+                    374
                 </div>
                 
 
@@ -669,33 +669,40 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
-<li>本代理服务器是本人自费购买的服务器，性能不是非常好，人数过多可能会有卡顿情况，如果害怕有木马，安全隐患的请勿使用。</li>
+                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本次将会教大家如何进行模块封装 分为windows和android两种方式.</p>
+<h4 id="1-windows"><a href="#1-windows" class="headerlink" title="1.windows"></a>1.windows</h4><ul>
+<li><p>首先配置java环境，请根据下面链接进行操作，或者百度其他教程</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/maoning/p/10701349.html">java环境配置教程</a></p>
+</li>
+<li><p>配置好后进lspatch，github下载最新的jar包</p>
+</li>
 </ul>
-<h4 id="1-代理分享"><a href="#1-代理分享" class="headerlink" title="1.代理分享"></a>1.代理分享</h4><ul>
-<li>代理地址为 aly.luoxingran.xyz 端口80 pac代理地址 aly.luoxingran.xyz:80/proxy.pac  后面将提供使用教程。</li>
+<p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/30.png"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/31.png"></p>
+<ul>
+<li><p>下载完后，找到保存jar包的位置，在此目录运行CMD，然后输入命令</p>
+<pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">Java -jar &lt;lspatch.jar路径&gt; &lt;软件安装包路径&gt; -m &lt;模块的路径&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li><p>得到一个新的文件，与lspatch.jar同路径</p>
+</li>
+<li><p>如果有签名效验可尝试添加命令 </p>
+</li>
 </ul>
-<h4 id="2-使用教程"><a href="#2-使用教程" class="headerlink" title="2.使用教程"></a>2.使用教程</h4><h5 id="1-windows代理"><a href="#1-windows代理" class="headerlink" title="1.windows代理"></a>1.windows代理</h5><ul>
-<li>下载安装网易云音乐，打开设置界面，点击工具选择自定义代理，子类选择http代理，将代理地址填入，然后点击测试如果提示可用那么就可以确定了</li>
+<pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">-l 1 或者 -l 2<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>winodws 打包方式就是这样了</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/17.png"></p>
-<h5 id="2-Macos代理"><a href="#2-Macos代理" class="headerlink" title="2.Macos代理"></a>2.Macos代理</h5><ul>
-<li>mac相对来说麻烦一点 ，打开系统偏好设置 &gt; 网络 &gt; 高级 &gt; 代理 ，将PAC代理地址填入URL中点击确定。</li>
-<li>然后安装证书后面会提供，安装证书后将其设置为 始终信任，具体操作百度即可。</li>
-<li>这里我提供一个其他人员分享的操作流程。</li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/udcXzgUB3fHx6FC8O9rzvQ">MAC代理教程</a></li>
-<li>别急还没有完全安装成功，需要打开safari 进入 music.163.com 会提示证书错误，继续浏览然后输入密码安装证书才算完成。</li>
-</ul>
-<h5 id="3-Android代理"><a href="#3-Android代理" class="headerlink" title="3.Android代理"></a>3.Android代理</h5><ul>
-<li>所有手机代理都必须在无线网络下才能进行操作. WLAN &gt; 修改网络 &gt; 高级选项 &gt; 代理</li>
-<li>设置为手动将代理地址填入即可。</li>
-</ul>
-<h5 id="4-iOS代理"><a href="#4-iOS代理" class="headerlink" title="4.iOS代理"></a>4.iOS代理</h5><ul>
-<li>ios没有手机不是很清楚但操作流程和安卓应该差不多。</li>
-<li>无线局域网 &gt; HTTP 代理 &gt; 配置代理 不会的自行百度。</li>
+<h4 id="2-android"><a href="#2-android" class="headerlink" title="2.android"></a>2.android</h4><ul>
+<li>先下载termux，进入fdroid里面下载，fdroid百度即可</li>
+<li>然后打开termux，(建议使用科学上网)输入<pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">pkg update<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>然后输入<pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">pkg install openjdk-17<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>下载lspatch.jar</li>
+<li>准备好lspatch.jar 软件的安装包 模块安装包 建议将其放在一个目录下</li>
+<li>给予termux访问内部储存空间权限</li>
+<li>然后输入（如果在一个目录下可直接输入文件名）<pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">Java -jar &lt;lspatch.jar路径&gt; &lt;软件安装包路径&gt; -m &lt;模块的路径&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>得到一个新的文件，如果没有输出文件，可查看lspatch命令 输入-help 即可然后更改输出路径。</li>
 </ul>
 <h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><ul>
-<li>从购买服务器到搭建服务，我用了很大的精力，请大家且用且珍惜吧。</li>
+<li>xpatch和lspatch的方法是一样的，只是命令会有些不同，两者的兼容性也不同，具体请查看GitHub自述文件。</li>
 </ul>
 
                 
@@ -723,7 +730,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://bk.luoxingran.xyz/posts/faff21c0.html">http://bk.luoxingran.xyz/posts/faff21c0.html</a>
+                    <a href="http://bk.luoxingran.xyz/posts/7bbdf6e4.html">http://bk.luoxingran.xyz/posts/7bbdf6e4.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -761,8 +768,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%88%86%E4%BA%AB/">
-                                    <span class="chip bg-color">分享</span>
+                                <a href="/tags/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/">
+                                    <span class="chip bg-color">教程分享</span>
                                 </a>
                             
                         </div>
@@ -1108,9 +1115,56 @@ new Valine({
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/posts/7bbdf6e4.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020832.jpg" class="responsive-img" alt="lspatch/xpatch软件打包教程">
+                        
+                        <span class="card-title">lspatch/xpatch软件打包教程</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            使用lspatch/xpatch对xposed模块进行打包封装
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            落星苒
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/">
+                        <span class="chip bg-color">教程分享</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/posts/7bb4fce9.html">
                     <div class="card-image">
@@ -1128,53 +1182,8 @@ new Valine({
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-26
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            落星苒
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E9%80%86%E5%90%91/">
-                        <span class="chip bg-color">逆向</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/posts/7bb4f6e9.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013627.jpg" class="responsive-img" alt="网抑云音乐优化系列教程（三）">
-                        
-                        <span class="card-title">网抑云音乐优化系列教程（三）</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            使用MT管理器或者NP管理器对网易云音乐进行部分优化。
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-26
                             </span>
                         <span class="publish-author">
                             
