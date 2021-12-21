@@ -220,7 +220,7 @@
             "desc": "个人博客",
             "icon": {
                 "type": "img",
-                "content": "https://www.hualigs.cn/image/619e04f418972.jpg",
+                "content": "https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/ico2.jpg",
                 "bg": "#6b96cf"
             },
             "openMode": "normal",
