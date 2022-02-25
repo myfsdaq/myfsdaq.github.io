@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>网抑云音乐6.0补充教程</title>
+      <link href="posts/7bb4f6e5.html"/>
+      <url>posts/7bb4f6e5.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="0x001-补充教程"><a href="#0x001-补充教程" class="headerlink" title="0x001 补充教程"></a>0x001 补充教程</h3><h4 id="1-去除6系我的界面顶栏"><a href="#1-去除6系我的界面顶栏" class="headerlink" title="1.去除6系我的界面顶栏"></a>1.去除6系我的界面顶栏</h4><ul><li>首先打开DEX全选，搜索类名mymusic</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/1.jpg"></p><ul><li>然后在此结果下搜索方法名gethead</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/2.jpg"></p><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/3.jpg"></p><ul><li>然后进入导航栏查找此方法调用</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/4.jpg"></p><ul><li>找到一个结果进入顶部直接返回空或者把类清空即可</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/5.jpg"></p><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/6.jpg"></p><h4 id="2-去除6系听歌识曲弹窗"><a href="#2-去除6系听歌识曲弹窗" class="headerlink" title="2.去除6系听歌识曲弹窗"></a>2.去除6系听歌识曲弹窗</h4><ul><li><p>7.2.10教程中采用的是直接修改dex内的版本号，但由于部分版本并没有版本号，不同版本需采用不同的方法</p></li><li><p>搜索类名</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">com.netease.cloudmusic.meta.virtual.BundleMetaInfo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>找到方法getversion赋值为空即可</p></li></ul><pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v0, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/7.jpg"></p><h4 id="3-去除6系评论区广告"><a href="#3-去除6系评论区广告" class="headerlink" title="3.去除6系评论区广告"></a>3.去除6系评论区广告</h4><ul><li><p>7.2.10教程中采用的是直接删除获取广告的相关代码来解决评论区广告，但在6系中部分版本并不适用。下面给出方法</p></li><li><p>搜索类名</p></li></ul><pre class="line-numbers language-text" data-language="text"><code class="language-text">CommentListEntry<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>进入找到getad赋值为空</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/8.jpg"></p><pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v0, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>找到数据为Lcom/netease/cloudmusic/meta/Ad;I的init方法看图赋值，只赋值P2也是可以的</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/9.jpg"></p><h3 id="0x002-教程结束"><a href="#0x002-教程结束" class="headerlink" title="0x002 教程结束"></a>0x002 教程结束</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 逆向 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>lspatch/xpatch软件打包教程</title>
       <link href="posts/7bbdf6e4.html"/>
       <url>posts/7bbdf6e4.html</url>

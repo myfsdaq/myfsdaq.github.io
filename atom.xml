@@ -6,7 +6,7 @@
   <link href="http://bk.luoxingran.xyz/atom.xml" rel="self"/>
   
   <link href="http://bk.luoxingran.xyz/"/>
-  <updated>2021-11-26T05:18:16.965Z</updated>
+  <updated>2022-02-25T05:31:26.169Z</updated>
   <id>http://bk.luoxingran.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网抑云音乐6.0补充教程</title>
+    <link href="http://bk.luoxingran.xyz/posts/7bb4f6e5.html"/>
+    <id>http://bk.luoxingran.xyz/posts/7bb4f6e5.html</id>
+    <published>2022-02-25T04:50:48.000Z</published>
+    <updated>2022-02-25T05:31:26.169Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="0x001-补充教程"><a href="#0x001-补充教程" class="headerlink" title="0x001 补充教程"></a>0x001 补充教程</h3><h4 id="1-去除6系我的界面顶栏"><a href="#1-去除6系我的界面顶栏" class="headerlink" title="1.去除6系我的界面顶栏"></a>1.去除6系我的界面顶栏</h4><ul><li>首先打开DEX全选，搜索类名mymusic</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/1.jpg"></p><ul><li>然后在此结果下搜索方法名gethead</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/2.jpg"></p><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/3.jpg"></p><ul><li>然后进入导航栏查找此方法调用</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/4.jpg"></p><ul><li>找到一个结果进入顶部直接返回空或者把类清空即可</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/5.jpg"></p><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/6.jpg"></p><h4 id="2-去除6系听歌识曲弹窗"><a href="#2-去除6系听歌识曲弹窗" class="headerlink" title="2.去除6系听歌识曲弹窗"></a>2.去除6系听歌识曲弹窗</h4><ul><li><p>7.2.10教程中采用的是直接修改dex内的版本号，但由于部分版本并没有版本号，不同版本需采用不同的方法</p></li><li><p>搜索类名</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">com.netease.cloudmusic.meta.virtual.BundleMetaInfo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>找到方法getversion赋值为空即可</p></li></ul><pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v0, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/7.jpg"></p><h4 id="3-去除6系评论区广告"><a href="#3-去除6系评论区广告" class="headerlink" title="3.去除6系评论区广告"></a>3.去除6系评论区广告</h4><ul><li><p>7.2.10教程中采用的是直接删除获取广告的相关代码来解决评论区广告，但在6系中部分版本并不适用。下面给出方法</p></li><li><p>搜索类名</p></li></ul><pre class="line-numbers language-text" data-language="text"><code class="language-text">CommentListEntry<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>进入找到getad赋值为空</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/8.jpg"></p><pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v0, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>找到数据为Lcom/netease/cloudmusic/meta/Ad;I的init方法看图赋值，只赋值P2也是可以的</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/luoxingran/9.jpg"></p><h3 id="0x002-教程结束"><a href="#0x002-教程结束" class="headerlink" title="0x002 教程结束"></a>0x002 教程结束</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="逆向" scheme="http://bk.luoxingran.xyz/tags/%E9%80%86%E5%90%91/"/>
+    
+  </entry>
   
   <entry>
     <title>lspatch/xpatch软件打包教程</title>
@@ -43,7 +65,7 @@
     <link href="http://bk.luoxingran.xyz/posts/7bb4fce9.html"/>
     <id>http://bk.luoxingran.xyz/posts/7bb4fce9.html</id>
     <published>2021-11-26T03:14:23.000Z</published>
-    <updated>2021-11-26T03:35:37.216Z</updated>
+    <updated>2022-02-25T05:31:30.886Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这是网易云系列最后一期教程，此后就不会再更新了，我会尽快将打包的教程搞出来，以后大家就需要自己动手了。</p><h4 id="终极篇-1-侧边栏精简（只说明方法其余的请自行研究）"><a href="#终极篇-1-侧边栏精简（只说明方法其余的请自行研究）" class="headerlink" title="终极篇 1.侧边栏精简（只说明方法其余的请自行研究）"></a>终极篇 1.侧边栏精简（只说明方法其余的请自行研究）</h4><ul><li>首先需要准备APP 开发助手或者开发者助手</li><li>打开开发助手，选择布局查看打开，这时候会出现一个窗口。</li><li>打开网易云音乐，打开侧边栏，然后点击分析布局，然后选择音乐闹钟，这里我建议选择这个，然后长按16进制复制。</li><li>然后打开MT，选择XML搜索资源ID复制粘贴即可，搜索后可能有两个文件，一般只有一个，两个的话选择比较大的那个进行反编译。</li><li>然后搜索16进制ID，注意：可能MT会默认开启ID转名称需要进行关闭。</li><li>然后将下面代码复制粘贴即可。</li></ul><pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">android:visibility="gone"android:layout_width="match_parent"android:layout_height="0dp"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/21.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/22.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/23.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/24.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/25.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/26.jpg"></p><h4 id="终极篇-2-导航栏精简"><a href="#终极篇-2-导航栏精简" class="headerlink" title="终极篇 2.导航栏精简"></a>终极篇 2.导航栏精简</h4><ul><li>打开arsc文件搜索字符串我的。如果是英文的话需要搜索mine。</li><li>搜索后会发现2个结果是一样的 两个均需要修改。</li><li>进去后不想要哪一项直接删除即可。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/27.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/28.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/29.jpg"></p><h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><ul><li>教程到这里就结束了，其他的部分优化我不会分享出来，自己找吧，可能也没有其他人系统的整理过，网易云的优化教程，且用且珍惜吧，完结撒花。</li></ul>]]></content>
     
@@ -87,7 +109,7 @@
     <link href="http://bk.luoxingran.xyz/posts/7bb4f6e4.html"/>
     <id>http://bk.luoxingran.xyz/posts/7bb4f6e4.html</id>
     <published>2021-11-25T05:15:27.000Z</published>
-    <updated>2021-11-26T02:39:13.277Z</updated>
+    <updated>2022-02-25T04:57:30.506Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="0x001-优化教程（二）"><a href="#0x001-优化教程（二）" class="headerlink" title="0x001 优化教程（二）"></a>0x001 优化教程（二）</h3><h4 id="1-去除首页banner广告"><a href="#1-去除首页banner广告" class="headerlink" title="1.去除首页banner广告"></a>1.去除首页banner广告</h4><ul><li>打开MT管理器找到过签后点击查看,然后点击DEX全选选择DEX++，类名搜索bannerviewhelper<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/1.jpg"></li><li>进入此类找到<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-wide v2, 0x4004924924924925L<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>将0x4004924924924925L改为0X0<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/3.jpg"></li><li>找到里面的两个<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">sub-int/2addr v0, v1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>在其下面将V0赋值为0<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/2.jpg"></li><li>banner横幅就去除完成了。</li></ul><h4 id="2-去除启动广告"><a href="#2-去除启动广告" class="headerlink" title="2.去除启动广告"></a>2.去除启动广告</h4><ul><li>首先打开AXML 搜索loadingadactivity<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/6.jpg"></li><li>将此段全部删除。<br>打开DEX++搜索代码<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">loadingadactivity<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>找到类名为moudle.ad的类进入将图下此段全部删除。<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/7.jpg"></li><li>删除后在返回继续找moudle类 进入后将图下代码删除</li><li>然后返回再找utils 一样的删除即可<br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/8.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/9.jpg"><br><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/10.jpg"></li></ul><h4 id="3-去除其他广告"><a href="#3-去除其他广告" class="headerlink" title="3.去除其他广告"></a>3.去除其他广告</h4><ul><li>字符串搜索以下代码，选择全部替换随便打就行<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">ad/config/get<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>然后字符串搜索<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">AdApiUtils<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>选择第一个进入搜索<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">ad/get<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>将字符串删除 然后将此类所有的code字符串全部删除，例如<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v14, "code"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>修改为<pre class="line-numbers language-smail" data-language="smail"><code class="language-smail">const-string v14, ""<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li>至此广告去除的已经差不多了，其余的请自立更生。</li></ul><h4 id="4-去除评论区广告"><a href="#4-去除评论区广告" class="headerlink" title="4.去除评论区广告"></a>4.去除评论区广告</h4><ul><li>方法名搜索getad，选择完全匹配，找到comment这个类</li><li>进入将getad赋值为0</li><li>然后将fromjsonboject方法清空，并设置返回值为0即可。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/myfsdaq/imgbed/19.jpg"></p><p>教程到这里，广告就应该去除的差不多了，如果还有就请自己动手吧。</p>]]></content>
     
